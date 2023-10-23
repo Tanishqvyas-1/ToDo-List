@@ -1,0 +1,45 @@
+#heading1{
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+#h3id{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.details {
+    display: none;
+    margin-left: 20px; 
+  }
+.box1 {
+    background-color: #fadadd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.task{
+    cursor: pointer;
+}
+#head2{
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-top: 50px;
+}
+#head3{
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin: 50px;
+}
+#head4{
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin: 50px;
+} 
+
+   
