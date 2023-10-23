@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="ToDo_List.css" />
+  </head>
+  <body>
+    <div id="heading1">
+      <h1>ToDo List</h1>
+    </div>
+    <h3 id="h3id">click the task to see details</h3>
+    <div class="box1">
+      <div class="morning">
+        <h2>Morning</h2>
+        <ul id="ul1">
+          <li class="task" onclick="toggleDetails(this)">Get Ready</li>
+          <div class="details">
+            <p>you need to wake up at 6 and get ready for jogging</p>
+          </div>
+          <li class="task" onclick="toggleDetails(this)">Jogging</li>
+          <div class="details">
+            <p>you need to go for a jogg</p>
+          </div>
+          <li class="task" onclick="toggleDetails(this)">Have Breakfast</li>
+          <div class="details">
+            <p>you need to have breafast and have your second tea</p>
+          </div>
+          <li class="task" onclick="toggleDetails(this)">Go to work</li>
+          <div class="details">
+            <p>you need to reach office at 10:30</p>
+          </div>
+        </ul>
+      </div>
+      <div class="noon">
+        <h2>Noon</h2>
+        <ul id="ul2">
+          <li class="task" onclick="toggleDetails(this)">have lunch</li>
+          <div class="details">
+            <p>you need to have lunch at 1:30PM</p>
+          </div>
+          <li class="task" onclick="toggleDetails(this)">submit report</li>
+          <div class="details">
+            <p>
+              you need to submit report to your manager with all previous
+              analysis
+            </p>
+          </div>
+          <li class="task" onclick="toggleDetails(this)">complete task</li>
+          <div class="details">
+            <p>
+              you need to complete new task given by the technical manager
+              before leaving in evening
+            </p>
+          </div>
+        </ul>
+      </div>
+      <div class="evening">
+        <h2>Evening</h2>
+        <ul id="ul3">
+          <li class="task" onclick="toggleDetails(this)">have Tea</li>
+          <div class="details">
+            <p>It's break time, you can have your tea now !</p>
+          </div>
+          <li class="task" onclick="toggleDetails(this)">submit Report</li>
+          <div class="details">
+            <p>you need to submit the report of today's work to manager</p>
+          </div>
+          <li class="task" onclick="toggleDetails(this)">go to home</li>
+          <div class="details">
+            <p>you can leave the office and go home now it's 6:30PM</p>
+          </div>
+          <li class="task" onclick="toggleDetails(this)">make dinner</li>
+          <div class="details">
+            <p>you have to make your dinner for tonigh!</p>
+          </div>
+          <li class="task" onclick="toggleDetails(this)">relax</li>
+          <div class="details">
+            <p>
+              you need to complete new task given by the technical manager
+              before leaving in evening
+            </p>
+          </div>
+        </ul>
+      </div>
+    </div>
+    <div class="footer">
+      <h2 id="head2">These are your today's tasks</h2>
+      <h3 id="head3">
+        For more details and reminder check your schedule, Have a nice day at
+        work!
+      </h3>
+    </div>
+    <script src="ToDo_List.js"></script>
+  </body>
+</html>
